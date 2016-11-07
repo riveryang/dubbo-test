@@ -38,6 +38,6 @@ HOSTIP=192.168.8.158
 docker run -it --rm -P -v /var/run/docker.sock:/var/run/docker.sock -e PROXY_HOST=$HOSTIP riveryang/dubbo-test
 ```
 
-#### Registry
+#### Zookeeper nodes
 	e.g. URL:
 	dubbo://192.168.8.158:32798/org.dubbo.demo.service.HelloWorldService?.....
