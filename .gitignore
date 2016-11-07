@@ -14,3 +14,4 @@ webRoot/
 *.pid
 .checkstyle
 .fbIncludeFilterFile
+!/ruleng_linux_amd64.tar.gz
